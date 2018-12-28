@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>train-number</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/brain/0.6.3/brain.js"></script>
+    <style>
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      #fabric canvas {
+        display: block;
+        width: 100%;
+        outline: 1px solid black;
+        background: #ccc;
+      }
+      #result {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img id="img0" src="images/0.png" alt="" />
+      <img id="img1" src="images/1.png" alt="" />
+      <img id="img2" src="images/2.png" alt="" />
+      <img id="img3" src="images/3.png" alt="" />
+      <img id="img4" src="images/4.png" alt="" />
+      <img id="img5" src="images/5.png" alt="" />
+      <img id="img6" src="images/6.png" alt="" />
+      <img id="img7" src="images/7.png" alt="" />
+      <img id="img8" src="images/8.png" alt="" />
+      <img id="img9" src="images/9.png" alt="" />
+    </div>
+
+    <div id="fabric"></div>
+    <input id="guess" type="button" value="Guess" />
+    <input id="clear" type="button" value="Clear" />
+    <div id="result"></div>
+
+    <script src="./js/utils.js"></script>
+    <script src="./js/han.js"></script>
+    <script src="./js/Brush.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
